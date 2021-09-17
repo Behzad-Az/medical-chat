@@ -7,4 +7,5 @@ export { default as ChannelInner } from './ChannelInner.jsx';
 export { default as CreateChannel } from './CreateChannel.jsx';
 export { default as EditChannel } from './EditChannel.jsx';
 export { default as UserList } from './UserList.jsx';
+export { default as ResultsDropdown } from './ResultsDropdown.jsx';
 export { default as Auth } from './Auth.jsx';
