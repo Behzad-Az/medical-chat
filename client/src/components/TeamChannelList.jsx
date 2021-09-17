@@ -16,7 +16,7 @@ const TeamChannelList = ({ children, error = false, loading, type, isCreating, s
   if (loading) {
     return (
       <div className='team-channel-list'>
-        <p className='team-channel-list__message loading loading'>
+        <p className='team-channel-list__message loading'>
           { type === 'team' ? 'Channels' : 'Messages' } loading...
         </p>
       </div>
@@ -27,7 +27,7 @@ const TeamChannelList = ({ children, error = false, loading, type, isCreating, s
     <div className='team-channel-list'>
       <div className='team-channel-list__header'>
         <p className='team-channel-list__header__title'>
-          { type === 'team' ? 'Channels' : 'Direct Messages' } loading...
+          { type === 'team' ? 'Channels' : 'Direct Messages' }
         </p>
         <AddChannel
           isCreating={isCreating}
